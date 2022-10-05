@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(./pexels-brett-sayles-1322185.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+.hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 50px;
+}
+.section-title h3 {
+  font-weight: bolder;
+  margin: 0;
+}
+/* header start  */
+/* header {
+  background-image: url();
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1700px 900px;
+} */
+.banner-container h1 {
+  font-size: 3.5rem;
+  padding: 10px 20px;
+  font-family: "Handlee", cursive;
+  border-radius: 5px;
+  background-color: #0d0442;
+}
+.banner-container {
+  height: 100vh;
+}
+.navbar {
+  padding: 1% 10%; /* 1% for top bottom & 10% left right  */
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-icon {
+  color: white;
+}
+.navbar-brand img {
+  width: 60px;
+  height: auto;
+}
+.nav-link {
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  background: navy;
+  color: white;
+  transform: scale(1.1);
+}
+/* header end  */
+
+/* about me start  */
+#about-me {
+  padding: 4% 10%;
+  background: #e8ded2;
+}
+#about-me p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: light;
+}
+#about-me a {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: black;
+  text-decoration: underline;
+}
+.acheive-desk span {
+  font-weight: 700 !important;
+}
+.acheive-desk p {
+  margin: 20px;
+}
+.star i {
+  width: 20px;
+}
+/* about me end  */
+
+/* tutorial starts  */
+#tutorial {
+  color: white;
+  padding: 4% 10%;
+  background: #0d0442;
+}
+.card {
+  transition: 0.4s;
+  border: 1px solid #ff02c0;
+  background-color: transparent !important;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+  border: 5px red solid !important;
+  border-radius: 5px;
+}
+/* tutorial ends  */
+/* feedback starts  */
+
+#feedback {
+  background: #0d0482;
+  padding: 7% 10%;
+}
+
+.hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 50px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+  text-align: center;
+  font-style: italic;
+}
+
+.feedback-image {
+  width: 40px;
+  height: auto;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+/* feedback ends  */
+/* contacts starts  */
+#contact {
+  padding: 2% 10%;
+  background: transparent;
+}
+.form-group label {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+/* contact ends */
+
+/* footer starts  */
+footer {
+  padding: 1% 10%;
+  background: turquoise;
+}
+footer a {
+  color: white;
+  margin: 0 10px;
+}
+footer a:hover {
+  color: black;
+}
+@media (max-width: 768px) {
+  .nav-link {
+    background: rgb(0, 0, 0, 0.7);
+  }
+  .banner-container h1 {
+    font-size: 1.5rem;
+  }
+}
